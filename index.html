@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>3M Türkiye</title>
+  <link rel="stylesheet" href="style.css">
+  <style>
+    .search {
+      display: flex;
+      align-items: center;
+    }
+
+    .search input[type="text"] {
+      padding: 10px;
+      margin-left: 200px;
+      border: 2px solid #ccc;
+      border-radius: 4px;
+      font-size: 14px;
+    }
+
+    .search button[type="submit"] {
+      padding: 10px 12px;
+      margin-left: 10px;
+      background-color: #f51238;
+      color: #fff;
+      border: none;
+      border-radius: 4px;
+      font-size: 14px;
+      cursor: pointer;
+    }
+
+    .search button[type="submit"]:hover {
+      background-color: #91080f;
+    }
+
+    .contact-columns {
+      display: flex;
+      justify-content: space-between;
+      margin-bottom: 60px;
+    }
+
+    .contact-column {
+      flex-basis: calc(50% - 15px);
+      margin-right: 30px;
+    }
+
+    .contact-column:last-child {
+      margin-right: 0;
+    }
+
+    .contact-info {
+      margin-top: 10px;
+      padding-left: 0;
+      list-style: none;
+    }
+
+    .contact-info li {
+      margin-bottom: 5px;
+    }
+  </style>
+</head>
+<body>
+    <header>
+        <div class="logo">
+          <a href="https://www.3m.com.tr/3M/tr_TR/turkiye-tr/">
+            <img src="3M-Logo.png" alt="3M Logo">
+          </a>
+        </div>
+        <div class="divider"></div>
+        <nav class="heading-menu">
+          <ul>
+            <li><a href="#">Ürünler</a></li>
+            <li><a href="#">Hakkımızda</a></li>
+            <li><a href="#">Destek</a></li>
+            <li><a href="#">İletişim</a></li>
+          </ul>
+        </nav>
+        <div class="search">
+          <input type="text" placeholder="Ara">
+          <button type="submit">Ara</button>
+        </div>
+      </header>
+      
+
+  <main>
+    <section class="hero">
+        <div class="slider">
+          <div class="slider-item active">
+            <a href="#"><img src="3m1.jpg" alt="Slider Image 1"></a>
+          </div>
+          <div class="slider-item">
+            <a href="#"><img src="3mbackground.jpg" alt="Slider Image 2"></a>
+          </div>
+          <div class="slider-item">
+            <a href="#"><img src="3mslider2.jpg" alt="Slider Image 3"></a>
+          </div>
+          <div class="slider-item">
+            <a href="#"><img src="RapidEvolutionRapidInnovation_270.webp" alt="Slider Image 4"></a>
+          </div>
+        </div>
+        <div class="slider-buttons">
+          <button class="slider-button active"></button>
+          <button class="slider-button"></button>
+          <button class="slider-button"></button>
+          <button class="slider-button"></button>
+        </div>
+        <h1>3M Türkiye</h1>
+        <p>3M, yenilikçi teknolojiler ve ürünlerle dünyayı dönüştürüyor.</p>
+        <a href="#" class="cta-button">Daha Fazla Bilgi</a>
+      </section>
+      
+
+    <section>
+      <h2>Ürünlerimiz</h2>
+      <div class="product-list">
+        <div class="product-item">
+          <div class="product-image">
+            <img src="consumer.webp" alt="Yapıştırıcılar ve Bantlar">
+          </div>
+          <div class="product-name">
+            <a href="#">Yapıştırıcılar ve Bantlar</a>
+          </div>
+        </div>
+        <div class="product-item">
+          <div class="product-image">
+            <img src="Coronavirus_410x270px.webp" alt="Güvenlik Ürünleri">
+          </div>
+          <div class="product-name">
+            <a href="#">Güvenlik Ürünleri</a>
+          </div>
+        </div>
+        <div class="product-item">
+          <div class="product-image">
+            <img src="DifferentApplicationsTotalSafety_270.webp" alt="Filmler ve Kaplamalar">
+          </div>
+          <div class="product-name">
+            <a href="#">Filmler ve Kaplamalar</a>
+          </div>
+        </div>
+        <div class="product-item">
+          <div class="product-image">
+            <img src="manufacturing.webp" alt="Elektronik Malzemeler">
+          </div>
+          <div class="product-name">
+            <a href="#">Elektronik Malzemeler</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <h2>Hakkımızda</h2>
+      <p>3M, 1902 yılında kurulan ve dünya genelinde faaliyet gösteren bir teknoloji şirketidir.</p>
+    </section>
+
+    <section>
+      <h2>Destek</h2>
+      <p>Müşteri desteğiyle ilgili herhangi bir sorunuz varsa, lütfen bizimle iletişime geçin.</p>
+    </section>
+
+    <section class="contact-columns">
+      <div class="contact-column">
+        <h2>İletişim</h2>
+        <p>Bize aşağıdaki bilgilerden ulaşabilirsiniz:</p>
+        <ul class="contact-info">
+          <li><strong>Telefon:</strong> 0123456789</li>
+          <li><strong>E-posta:</strong> info@3m.com.tr</li>
+          <li><strong>Adres:</strong> Örnek Mahallesi, Örnek Caddesi, No: 123, İstanbul</li>
+        </ul>
+      </div>
+      <div class="contact-column">
+        <h2>Bize Ulaşın</h2>
+        <div class="contact-form">
+          <form action="#" method="post">
+            <label for="name">Adınız:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">E-posta Adresiniz:</label>
+            <input type="text" id="email" name="email" required>
+
+            <label for="message">Mesajınız:</label>
+            <textarea id="message" name="message" rows="6" required></textarea>
+
+            <button type="submit">Gönder</button>
+          </form>
+        </div>
+      </div>
+    </section>
+  </main>
+  <footer>
+    <p>&copy; Tüm hakları saklıdır.</p>
+  </footer>
+  <script src="script.js"></script>
+</body>
+</html>
